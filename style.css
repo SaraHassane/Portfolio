@@ -31,11 +31,12 @@ body{
     top: 0;
     left: 0;
     width: 100%;
-    padding: 4rem 12% 4rem;
+    padding: 1rem 12%;
     background: rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(10px);
     display: flex;
     justify-content: space-between;
+
     align-items: center;
     z-index: 5;
 }
@@ -513,13 +514,14 @@ span{
     font-size: 8rem;
 }
 
+
 .contact{
     background-color: var(--bg-color);
 }
 
-.contact h2{
-    margin-bottom: 3rem;
-    color: var(--text-color);
+#contact-heading{
+    padding-top: 5%;
+  
 }
 
 .contact form{
@@ -527,32 +529,10 @@ span{
     align-items: center;
     justify-content: center;
     gap: 3rem;
-    margin: 5rem auto;
+    margin: 1rem auto;
     text-align: center;
 }
 
-.contact form .input-box{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.contact form .input-box input,
-.contact form textarea{
-    width: 100%;
-    padding: 2.5rem;
-    font-size: 1.8rem;
-    color: var(--text-color);
-    background: var(--bg-color);
-    border-radius: 2rem;
-    border: 2px solid var(--main-color);
-    margin: 1.5rem 0;
-    resize: none;
-}
-
-.contact form .btn{
-    margin-top: 2rem;
-}
 
 .footer{
     position: relative;
@@ -728,3 +708,4 @@ span{
         min-width: 42rem;
     }
 }
+
